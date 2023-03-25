@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+</head>
+<body>
+    <h1>My contact details</h1>
+    <a href="mailto:snehilraj10@gmail.com">snehilraj10@gmail.com</a><br>
+    <a href="tel:6205683833">6205683833</a>
+    <hr>
+    <form action="mailto:snehilraj10@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Enter your name:</label>
+        <input type="text" name="name"><br>
+        <label for="email">Enter your email:</label>
+        <input type="email" name="email"><br>
+        <label for="Message">Message</label><br>
+        <textarea name="Message" id="Message" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+    </form>
+    <br>
+    <!--for console view use script tag and function to create log output-->
+    <button onclick="log_console()">view message</button>
+    <script>
+        function log_console(){
+            console.log("my user log");
+        }
+    </script>
+</body>
+</html>
